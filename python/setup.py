@@ -7,7 +7,7 @@ from setuptools import setup
 
 
 setup(name='example-wise-f1-maximizer',
-      version='0.1.3',
+      version='0.1.4',
       description='A scikit-learn meta-estimator for multi-label classification that aims to maximize the example-wise '
                   'F1 measure',
       long_description=(Path(__file__).resolve().parent.parent / 'README.md').read_text(),
