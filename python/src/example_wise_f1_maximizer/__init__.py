@@ -1,1 +1,1 @@
-from example_wise_f1_maximizer import ExampleWiseF1Maximizer
+from meta_estimator import ExampleWiseF1Maximizer
