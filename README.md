@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI version](https://badge.fury.io/py/example-wise-f1-maximizer.svg)](https://badge.fury.io/py/example-wise-f1-maximizer)
 
+**Important links:** [Issue Tracker](https://github.com/mrapp-ke/ExampleWiseF1Maximizer/issues) | [Changelog](CHANGELOG.md) | [Code of Conduct](CODE_OF_CONDUCT.md)
+
 This software package provides an implementation of a meta-learning algorithm for multi-label classification that aims to maximize the example-wise F1-measure. It integrates with the popular [scikit-learn](https://scikit-learn.org) machine learning framework and can also be used with frameworks for multi-label classification like [scikit-multilearn](http://scikit.ml).
 
 The goal of [multi-label classification](https://en.wikipedia.org/wiki/Multi-label_classification) is the automatic assignment of sets of labels to individual data points, for example, the annotation of text documents with topics. The example-wise [F1-measure](https://en.wikipedia.org/wiki/F-score) is a particularly relevant evaluation measure for this kind of predictions, as it requires a classifier to achieve a good balance between labels predicted as relevant or irrelevant for an example, i.e., it must neither be to conservative nor to aggressive when it comes to predicting labels as relevant.
