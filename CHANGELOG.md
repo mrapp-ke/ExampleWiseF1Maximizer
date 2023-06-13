@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.1.4 (Jun. 13th, 2023)
+
+A minor update that fixes a `ModuleNotFoundError` that occurred since the last release.
+
 ## Version 0.1.3 (Jun. 13th, 2023)
 
 A minor update that fixes an `ImportError` that occurred since the last release.
