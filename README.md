@@ -17,6 +17,8 @@ The probabilities predicted by the individual base estimators for unseen example
 
 *Krzysztof Dembczyński, Willem Waegeman, Weiwei Cheng, and Eyke Hüllermeier. An Exact Algorithm for F-Measure Maximization. In: Advances in Neural Information Processing Systems, 2011.*
 
+**Please note that this implementation has not been written by any of the authors shown above.**
+
 ## Usage
 
 ### Installation
