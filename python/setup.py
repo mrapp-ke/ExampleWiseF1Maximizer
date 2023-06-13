@@ -3,27 +3,7 @@ Author: Michael Rapp (michael.rapp.ml@gmail.com)
 """
 from pathlib import Path
 
-from pkg_resources import parse_requirements
 from setuptools import find_packages, setup
-
-
-def find_dependencies(requirements_file, dependency_names):
-    requirements = {
-        requirement.key: requirement
-        for requirement in parse_requirements(requirements_file.read_text().split('\n'))
-    }
-    dependencies = []
-
-    for dependency_name in dependency_names:
-        match = requirements.get(dependency_name)
-
-        if match is None:
-            raise RuntimeError(
-                'Failed to determine required version of dependency "' + dependency_name + '"')
-
-        dependencies.append(str(match))
-
-    return dependencies
 
 
 setup(name='example-wise-f1-maximizer',
@@ -57,8 +37,9 @@ setup(name='example-wise-f1-maximizer',
       platforms=['any'],
       python_requires='>=3.7',
       install_requires=[
-          *find_dependencies(requirements_file=Path(__file__).resolve().parent / 'requirements.txt',
-                             dependency_names=['numpy', 'scipy', 'scikit-learn']),
+          'numpy >= 1.24, < 1.25',
+          'scipy >= 1.10, < 1.11',
+          'scikit-learn >=1.2, < 1.3'
       ],
       packages=find_packages(where='src'),
       zip_safe=True)
