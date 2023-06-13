@@ -31,7 +31,7 @@ pip install example-wise-f1-maximizer
 
 To use the classifier in your own Python code, you need to import the class `ExampleWiseF1Maximizer`. It can be instantiated and used as shown below:
 
-```
+```python
 from example_wise_f1_maximizer import ExampleWiseF1Maximizer
 from sklearn.linear_model import LogisticRegression
 
