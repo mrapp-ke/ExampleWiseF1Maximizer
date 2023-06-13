@@ -3,7 +3,7 @@ Author: Michael Rapp (michael.rapp.ml@gmail.com)
 """
 from pathlib import Path
 
-from setuptools import find_packages, setup
+from setuptools import setup
 
 
 setup(name='example-wise-f1-maximizer',
@@ -41,5 +41,6 @@ setup(name='example-wise-f1-maximizer',
           'scipy >= 1.10, < 1.11',
           'scikit-learn >=1.2, < 1.3'
       ],
-      packages=find_packages(where='src'),
+      packages=['example_wise_f1_maximizer'],
+      package_dir={'': 'src'},
       zip_safe=True)
