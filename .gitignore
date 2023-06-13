@@ -1,0 +1,14 @@
+# Build files
+python/**/build/
+python/**/__pycache__/
+python/**/dist/
+python/**/*egg-info/
+
+# Virtual Environment
+venv/
+
+# IntelliJ
+.idea/
+
+# Virtual Studio Code
+.vscode/
