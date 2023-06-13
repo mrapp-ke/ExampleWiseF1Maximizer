@@ -23,13 +23,13 @@ The probabilities predicted by the individual base estimators for unseen example
 
 The software package is available at [PiPy](https://pypi.org/project/example-wise-f1-maximizer/) and can easily be installed via PIP using the following command:
 
-"""
+```
 pip install example-wise-f1-maximizer
-"""
+```
 
 To use the classifier in your own Python code, you need to import the class `ExampleWiseF1Maximizer`. It can be instantiated and used as shown below:
 
-"""
+```
 from example_wise_f1_maximizer import ExampleWiseF1Maximizer
 from sklearn.linear_model import LogisticRegression
 
@@ -40,7 +40,7 @@ y = [[1, 0],  # Ground truth labels of each training example
      [0, 1]]
 clf.fit(x, y)
 pred = clf.predict(x)
-"""
+```
 
 The fit method accepts two inputs, `x` and `y`:
 
