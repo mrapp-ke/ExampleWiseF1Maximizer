@@ -19,7 +19,7 @@ The probabilities predicted by the individual base estimators for unseen example
 
 **Please note that this implementation has not been written by any of the authors shown above.**
 
-## Usage
+## Documentation
 
 ### Installation
 
@@ -28,6 +28,8 @@ The software package is available at [PiPy](https://pypi.org/project/example-wis
 ```
 pip install example-wise-f1-maximizer
 ```
+
+### Usage
 
 To use the classifier in your own Python code, you need to import the class `ExampleWiseF1Maximizer`. It can be instantiated and used as shown below:
 
