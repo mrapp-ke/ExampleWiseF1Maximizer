@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.1.2 (Jun. 13th, 2023)
+
+A minor update that makes the class `ExampleWiseF1Maximizer` publicly available as described in the documentation.
+
 ## Version 0.1.1 (Jun. 13th, 2023)
 
 A minor update that fixes the PiPy package.
