@@ -60,5 +60,5 @@ setup(name='example-wise-f1-maximizer',
           *find_dependencies(requirements_file=Path(__file__).resolve().parent / 'requirements.txt',
                              dependency_names=['numpy', 'scipy', 'scikit-learn']),
       ],
-      packages=find_packages(),
+      packages=find_packages(where='src'),
       zip_safe=True)
