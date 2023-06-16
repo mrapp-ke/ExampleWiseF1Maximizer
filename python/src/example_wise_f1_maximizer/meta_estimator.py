@@ -45,7 +45,7 @@ def gfm(p: np.ndarray, p_0: float, w: Optional[np.ndarray] = None, max_cardinali
     """
     num_labels = p.shape[0]
     best_quality = p_0
-    best_indices = []
+    best_indices = np.asarray([])
 
     if w is None:
         w = create_gfm_weight_matrix(num_labels)
